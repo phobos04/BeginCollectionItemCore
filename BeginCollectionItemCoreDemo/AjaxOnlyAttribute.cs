@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace BeginCollectionItemCoreDemo.Controllers
+namespace BeginCollectionItemCoreDemo.Controllers;
+
+internal class AjaxOnlyAttribute : Attribute
 {
-    internal class AjaxOnlyAttribute : Attribute
-    {
-    }
 }
